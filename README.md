@@ -1,73 +1,147 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+<h1> Instrucciones:</h1>
+<p>Descargar o clonar el repositorio
+dentro de la carpeta PM4-muqui/ecommerce-muqui
+ejecutar el comando npm install</p> 
+<p> cambiarse al directorio ecommerce-muqui y ejecutar el comando npm run start:dev </p>
+<p> El servidor se ejecuta en la siguiente url: http://localhost:3000 <p> 
+<h2> Documentación</h2>
+<p> La documentacion del proyecto esta en al siguiente url: http://localhost:3000/api </p>
+
+<p align="center" style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p align="center" style="line-height: 100%; margin-bottom: 0in"><font color="#800080"><b><font size="4" style="font-size: 14pt">Registrar</font>
+post:</b></font></p>
+<p style="line-height: 100%; margin-bottom: 0in">usuario:
+<span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">/auth/signup</span></span></span></font></font></font></span></p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p align="center" style="line-height: 100%; margin-bottom: 0in"><font color="#800080"><b><span style="font-variant: normal"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal">Ingreso
+post: </span></span></font></font></span></b></font>
+</p>
+<p style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; margin-bottom: 0in">
+<font color="#000000"><font face="Times New Roman"><font size="4" style="font-size: 14pt">/auth/signin</font></font></font></p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">request
+body: </span></span></span></font></font></font></span><code class="western"><span style="font-variant: normal"><font color="#ffffff"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">{</span></span></span></font></font></font></span></code></p>
+<pre class="western" style="orphans: 2; widows: 2; border: none; padding: 0in; background: #333333"><code class="western"><span style="font-variant: normal"><font color="#ffffff"><span style="letter-spacing: normal">  </span></font></span></code><code class="western"><span style="font-variant: normal"><font color="#ffffff"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">&quot;email&quot;: </span></span></span></font></font></font></span></code><code class="western"><span style="font-variant: normal"><font color="#a2fca2"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">&quot;muqui@hotmail.com&quot;</span></span></span></font></font></font></span></code><code class="western"><span style="font-variant: normal"><font color="#ffffff"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">,</span></span></span></font></font></font></span></code>
+<code class="western"><span style="font-variant: normal"><font color="#ffffff"><span style="letter-spacing: normal">  </span></font></span></code><code class="western"><span style="font-variant: normal"><font color="#ffffff"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">&quot;password&quot;: </span></span></span></font></font></font></span></code><code class="western"><span style="font-variant: normal"><font color="#a2fca2"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">&quot;123456&quot;</span></span></span></font></font></font></span></code>
+<code class="western"><span style="font-variant: normal"><font color="#ffffff"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">}</span></span></span></font></font></font></span></code></pre><p style="line-height: 100%; margin-bottom: 0in">
+<br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">response
+body:</span></span></span></font></font></font></span></p>
+<pre class="western"><code class="western"><span style="font-variant: normal"><font color="#ffffff"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">{</span></span></span></font></font></font></span></code>
+<code class="western"><span style="font-variant: normal"><font color="#ffffff"><span style="letter-spacing: normal">  </span></font></span></code><code class="western"><span style="font-variant: normal"><font color="#ffffff"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">&quot;token&quot;: </span></span></span></font></font></font></span></code><code class="western"><span style="font-variant: normal"><font color="#a2fca2"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im11cXVpQGhvdG1haWwuY29tIiwiaWQiOjEsInJvbGVzIjpbInVzZXIiXSwiaWF0IjoxNzM3NDgxMzEyLCJleHAiOjE3Mzc1Njc3MTJ9.6xDD35QZ_XAOqXeGL5kCrKEwEgEV2GD9y2um-rdV4e0&quot;</span></span></span></font></font></font></span></code><code class="western"><span style="font-variant: normal"><font color="#ffffff"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">,</span></span></span></font></font></font></span></code>
+<code class="western"><span style="font-variant: normal"><font color="#ffffff"><span style="letter-spacing: normal">  </span></font></span></code><code class="western"><span style="font-variant: normal"><font color="#ffffff"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">&quot;email&quot;: </span></span></span></font></font></font></span></code><code class="western"><span style="font-variant: normal"><font color="#a2fca2"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">&quot;muqui@hotmail.com&quot;</span></span></span></font></font></font></span></code>
+<code class="western"><span style="font-variant: normal"><font color="#ffffff"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">}</span></span></span></font></font></font></span></code></pre><p style="line-height: 100%; margin-bottom: 0in">
+<br/>
+
+</p>
+<p align="center" style="line-height: 100%; margin-bottom: 0in"><font color="#55308d"><font size="4" style="font-size: 14pt"><span style="font-variant: normal"><font face="Times New Roman"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">solicitar
+autorizacion para las url protegidas:</span></span></span></font></span></font></font></p>
+<p align="center" style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">dar
+clic en el boton authorize</span></span></span></font></font></font></span></p>
+<p style="line-height: 100%; margin-bottom: 0in"><img src="test%20project%20con%20Swagger%20html_html_34ab546d.png" name="Image1" align="left" width="276" height="94" border="0"/>
+<br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Capturamos
+el token que recibimos de la autorizacion:</span></span></span></font></font></font></span></p>
+<p style="line-height: 100%; margin-bottom: 0in"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal">
+</span></font></span><code class="western"><span style="font-variant: normal"><font color="#000000"><font face="Consolas, monaco, monospace"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im11cXVpQGhvdG1haWwuY29tIiwiaWQiOjEsInJvbGVzIjpbInVzZXIiXSwiaWF0IjoxNzM3NDgxMzEyLCJleHAiOjE3Mzc1Njc3MTJ9.6xDD35QZ_XAOqXeGL5kCrKEwEgEV2GD9y2um-rdV4e0</span></span></span></font></font></font></span></code></p>
+<p style="line-height: 100%; margin-bottom: 0in"><img src="test%20project%20con%20Swagger%20html_html_e260ff64.png" name="Image2" align="left" width="449" height="202" border="0"/>
+<br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p align="center" style="line-height: 100%; margin-bottom: 0in"><font color="#55308d"><b><span style="font-variant: normal"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal">Precarga
+de datos</span></span></font></font></span></b></font></p>
+<p align="center" style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">carga
+de usuarios:   </span></span></span></font></font></span><span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">/seeder/users
+ </span></span></span></font></font></span><span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">(ruta
+protegida).</span></span></span></font></font></span></font></p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">c</span></span></span></font></font></span><span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">arga
+de productos: </span></span></span></font></font></span><span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">/seeder/products</span></span></span></font></font></span><span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">
+ruta protegida).</span></span></span></font></font></span></font></p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p align="center" style="line-height: 100%; margin-bottom: 0in"><font color="#55308d"><b><span style="font-variant: normal"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal">Categorias</span></span></font></font></span></b></font></p>
+<p align="left" style="line-height: 100%; margin-top: 0.02in; margin-bottom: 0.02in">
+<font color="#000000"><font size="3" style="font-size: 12pt"><b><span style="font-variant: normal"><font face="Times New Roman"><span style="letter-spacing: normal"><span style="font-style: normal">crear
+categoria: </span></span></font></span></b><span style="font-variant: normal"><font face="Times New Roman"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">/categories</span></span></span></font></span></font></font></p>
+<p style="line-height: 100%; margin-top: 0.02in; margin-bottom: 0.02in">
+<span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">listar
+todas las categorias: </span></span></span></font></font></font></span><span style="font-variant: normal"><font color="#000000"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">/categories</span></span></span></font></font></font></span></p>
+<p style="line-height: 100%; margin-top: 0.02in; margin-bottom: 0.02in">
+<font color="#ff0000"><span style="font-variant: normal"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">lista
+una categoria por su id: </span></span></span></font></font></span><span style="font-variant: normal"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">/categories/{id}</span></span></span></font></font></span></font></p>
+<p style="line-height: 100%; margin-top: 0.02in; margin-bottom: 0.02in">
+<font color="#ff0000"><span style="font-variant: normal"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">actualiza
+una categoria por su id: </span></span></span></font></font></span><span style="font-variant: normal"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">/categories/{id}</span></span></span></font></font></span></font></p>
+<p style="line-height: 100%; margin-top: 0.02in; margin-bottom: 0.02in">
+<font color="#ff0000"><span style="font-variant: normal"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">borra
+una categoria: </span></span></span></font></font></span><span style="font-variant: normal"><font face="Times New Roman"><font size="4" style="font-size: 14pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">/categories/{id}</span></span></span></font></font></span></font></p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0in"><br/>
+
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
-
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-## Installation
-
-```bash
-$ npm install
-```
-
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
