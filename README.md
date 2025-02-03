@@ -3,6 +3,63 @@
 dentro de la carpeta PM4-muqui/ecommerce-muqui
 ejecutar el comando npm install</p> 
 <p> cambiarse al directorio ecommerce-muqui y ejecutar el comando npm run start:dev </p>
+<h2>Configuración del archivo .env </h2>
+<p>Antes de iniciar la aplicación, asegúrate de configurar el archivo .env con la siguiente información. Crea un archivo .env en la raíz del proyecto y añade las siguientes variables de entorno:</p>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DB_NAME</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>DB_HOST</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>DB_PORT</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>DB_USERNAME</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>DB_PASSWORD</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CLOUDINARY_CLOUD_NAME</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CLOUDINARY_API_SECRET</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CLOUDINARY_API_KEY</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+<p>Descripción de las variables:</p>
+<ul>
+  <li><strong>DB_NAME:</strong> Nombre de la base de datos en PostgreSQL.</li>
+  <li><strong>DB_HOST:</strong> Dirección del servidor de la base de datos (usualmente localhost).</li>
+  <li><strong>DB_PORT:</strong> Puerto en el que PostgreSQL está escuchando (por defecto es 5432).</li>
+  <li><strong>DB_USERNAME:</strong> Nombre de usuario para conectarse a la base de datos.</li>
+  <li><strong>DB_PASSWORD:</strong> Contraseña del usuario de la base de datos.</li>
+  <li><strong>CLOUDINARY_CLOUD_NAME:</strong> Nombre de tu cuenta en Cloudinary.</li>
+  <li><strong>CLOUDINARY_API_SECRET:</strong> Secreto de la API de Cloudinary.</li>
+  <li><strong>CLOUDINARY_API_KEY:</strong> Clave de la API de Cloudinary.</li>
+</ul>
+
+
 <p> El servidor se ejecuta en la siguiente url: http://localhost:3000 <p> 
 <h2> Documentación</h2>
 <p> La documentacion del proyecto esta en al siguiente url: http://localhost:3000/api </p>
